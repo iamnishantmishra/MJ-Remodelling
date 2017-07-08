@@ -1,0 +1,238 @@
+/* Main Stylesheet */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Fresca', sans-serif;
+}
+
+.banner {
+  background-image: url('../images/background.jpg');
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+}
+
+.branding {
+  text-align: center;
+}
+
+.branding h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  letter-spacing: 15px;
+}
+
+.branding h5 {
+  font-size: 30px;
+  margin-top: 10px;
+  letter-spacing: 5px;
+}
+
+/* Menu Section */
+.menubar {
+  background-color: #c0392b;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.menubar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menubar li {
+  display: inline;
+  padding: 20px 40px 20px 40px;
+  font-weight: bold;
+}
+
+.menubar .sub_container {
+  margin: auto;
+}
+
+.menubar a {
+  color: white;
+  text-decoration: none;
+}
+
+.menubar a:hover, .menubar a:active {
+  color: black;
+}
+
+/* Content Section */
+
+.content {
+  background-color: #ecf0f1;
+  text-align: center;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section1 {
+  width: 65%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.section2 {
+  width: 50%;
+  margin: auto;
+}
+
+.section1 h3 {
+  font-size: 46px;
+  color: #c0392b;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.section1 p, .section2 p {
+  letter-spacing: 2px;
+  color: #3C1D17;
+}
+
+.section2 h4 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section2 p span {
+  color: #c0392b;
+}
+
+.section2 p {
+  font-weight: 200;
+}
+
+.section1 p {
+  line-height: 1.5em;
+}
+
+/* Footer Section */
+
+.footer_top {
+  background-color: #3C1D17;
+  color: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 26px;
+}
+
+.illustration img {
+  display: block;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  margin: auto;
+}
+
+.left_bar, .right_bar {
+  height: 4px;
+  width: 120px;
+  background-color: #bdc3c7;
+}
+
+.wrapper .mid {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer_top .sub_container {
+  text-align: center;
+}
+
+.footer_top .color {
+  color: #B63D32;
+}
+
+.footer_top p {
+  margin-bottom: 10px;
+}
+
+/* footer-foot section */
+
+.footer_foot {
+  background-color: #e74c3c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer_foot .up span {
+  padding-left: 10px;
+}
+
+.footer_foot .sub_container {
+  text-align: center;
+}
+/* About Page & Contact Page Specific */
+
+.about {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 26px;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.about p {
+  line-height: 40px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 46px;
+  color: #c0392b;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact p.text {
+  font-size: 20px
+}
+.contact .toCenter {
+  text-align: left;
+}
+
+.toCenter h4 {
+  color: #3C1D17;
+  font-size: 29px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.toCenter h4 ~ p {
+  color: gray;
+  margin: 0;
+  font-weight: bold;
+}
+.toCenter {
+  padding-bottom: 50px;
+}
