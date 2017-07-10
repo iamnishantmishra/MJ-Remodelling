@@ -236,3 +236,38 @@ body {
 .toCenter {
   padding-bottom: 50px;
 }
+
+
+/* SlideShow Specific */
+
+
+.slide {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+/* Testimonial Page Specifics */
+
+.test {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  background-color: #ecf0f1;
+  height: 350px;
+  margin: 50px 20px 50px 20px;
+}
+
+.testimonial .place {
+  color: #3C1D17;
+  font-weight: bold;
+}
+
+.testimonial .name {
+  font-size: 24px;
+}
+
+.testimonial img {
+  border-radius: 100px;
+  padding-top: 10px;
+}
