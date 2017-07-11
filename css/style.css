@@ -271,3 +271,37 @@ body {
   border-radius: 100px;
   padding-top: 10px;
 }
+
+/*Gallery Specific*/
+
+.gal-image img {
+  display: block;
+  margin: auto;
+}
+
+.gal-image {
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  background-color: #ecf0f1;
+}
+
+.gal-image span {
+  color: #3C1D17;
+}
+
+.gal-image-con {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+
+.gal-con {
+  text-align: center;
+}
+
+.gal-con h2 {
+  color: #c0392b;
+  font-size: 36px;
+  margin-top: 50px;
+}
