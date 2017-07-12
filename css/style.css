@@ -395,4 +395,6 @@ body {
 .container-s {
   margin: 0 auto
   width: auto;
+  height: 300px;
+  overflow: hidden;
 }
