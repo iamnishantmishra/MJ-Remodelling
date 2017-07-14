@@ -1,0 +1,8 @@
+@charset "urf-8";
+
+#wrap {
+	width: 100%;
+	min-width: 800px;
+	height: 500px;
+	max-height: 500px;
+}
