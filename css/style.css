@@ -24,17 +24,38 @@ body {
   text-align: center;
 }
 
-.branding h1 {
-  font-size: 50px;
-  margin-bottom: 10px;
-  letter-spacing: 15px;
+@media (min-width: 541px) {
+  .branding h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 15px;
+  }
+}
+/*For Mobile*/
+ @media (max-width: 540px) {
+   .branding h1 {
+     font-size: 26px;
+     margin-bottom: 10px;
+     letter-spacing: 6px;
+   }
+ }
+
+@media (min-width: 541px) {
+  .branding h5 {
+    font-size: 30px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+  }
+}
+/*For Mobile*/
+@media (max-width: 540px) {
+  .branding h5 {
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+  }
 }
 
-.branding h5 {
-  font-size: 30px;
-  margin-top: 10px;
-  letter-spacing: 5px;
-}
 
 /* Menu Section */
 @media (min-width: 751px) {
@@ -155,10 +176,30 @@ body {
   margin: auto;
 }
 
-.left_bar, .right_bar {
-  height: 4px;
-  width: 120px;
-  background-color: #bdc3c7;
+@media (max-width: 540px) {
+  .footer_top p {
+    font-size: 24px;
+  }
+
+  .footer_top .mid > span {
+    font-size: 20px
+  }
+}
+
+@media (min-width: 541px) {
+  .left_bar, .right_bar {
+    height: 4px;
+    width: 120px;
+    background-color: #bdc3c7;
+  }
+}
+/*For Mobile*/
+@media (max-width: 540px) {
+  .left_bar, .right_bar {
+    height: 4px;
+    width: 36px;
+    background-color: #bdc3c7;
+  }
 }
 
 .wrapper .mid {
@@ -217,9 +258,20 @@ body {
   color: #c0392b;
 }
 
-.contact {
-  display: flex;
-  justify-content: center;
+@media (min-width: 541px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*For Mobile*/
+@media (max-width: 540px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    padding-left: 22px;
+  }
 }
 
 .contact p.text {
@@ -344,7 +396,7 @@ body {
    display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
 @media screen and (max-width: 750px) {
  .topnav a {display: none;}
  .banner a.icon {
